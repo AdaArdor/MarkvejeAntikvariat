@@ -1,13 +1,13 @@
 # Dependencies
 node_modules/
 
-# Environment files (SENSITIVE!)
+# Environment files (SENS)
 .env
 *.env
 .env.local
 .env.production
 
-# Database (optional - Railway will create its own)
+# Database
 # server/database.db
 
 # Build output
@@ -18,7 +18,7 @@ dist-ssr/
 *.log
 npm-debug.log*
 
-# OS files
+# OS filse
 .DS_Store
 Thumbs.db
 
