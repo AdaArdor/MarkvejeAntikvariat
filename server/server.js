@@ -21,7 +21,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
-// Trust proxy for secure cookies behind Railway's proxy
+// Railway
 if (isProduction) {
   app.set('trust proxy', 1);
 }

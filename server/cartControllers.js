@@ -103,7 +103,6 @@ export async function updateCartQuantity(req, res) {
     });
 
     if (quantity <= 0) {
-      // Remove item if quantity is 0 or less
       await db.run(
         'DELETE FROM cart WHERE id = ? AND user_id = ?',
         [cartItemId, req.session.userId]

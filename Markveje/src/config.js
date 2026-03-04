@@ -1,4 +1,4 @@
-// API configuration - switches between development and production
+// API config
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 export default API_URL;

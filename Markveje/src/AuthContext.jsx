@@ -20,7 +20,7 @@ export function AuthProvider({ children }) {
       if (res.ok) {
         const data = await res.json();
         setUser(data.user);
-        // Fetch cart count when logged in
+        // Fetch cart count whne logged in
         fetchCartCount();
       } else {
         setUser(null);
