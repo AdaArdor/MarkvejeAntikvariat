@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment files (SENSITIVE!)
+.env
+*.env
+.env.local
+.env.production
+
+# Database (optional - Railway will create its own)
+# server/database.db
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.sw?
